@@ -48,6 +48,10 @@ header > nav {
     color: white;
     display: flex;
 }
+.navbar-list li a:hover {
+  transition: color 0.2s ease 0s;
+  color: #f8b600;
+}
 .navbar-list li img {
   width: 14px;
   margin-left: 5px;
