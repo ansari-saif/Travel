@@ -16,6 +16,7 @@ header {
   position: sticky;
   top: 30px;
   height: 0;
+  z-index: 10;
 }
 header > nav {
   width: 1140px;
@@ -47,6 +48,9 @@ header > nav {
 .navbar-list li a {
     color: white;
     display: flex;
+}
+.navbar-list li a:hover {
+  color: #f8b600;
 }
 .navbar-list li img {
   width: 14px;

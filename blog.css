@@ -27,7 +27,6 @@ button {
   background: url(https://preview.colorlib.com/theme/travel/img/blog/xblog-home-banner.jpg.pagespeed.ic.AoKs9lLPRC.webp);
   background-size: cover;
   margin-left: -210px;
-  z-index: -3;
   overflow: hidden;
   position: relative;
 }
@@ -82,9 +81,6 @@ section[text="category"] {
 }
 .category img {
   width: 100%;
-}
-.category > div {
-  z-index: -10;
 }
 .category .over-text {
   width: 85%;
