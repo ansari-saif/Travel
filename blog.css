@@ -82,6 +82,9 @@ section[text="category"] {
 .category img {
   width: 100%;
 }
+.category > div {
+  z-index: -10;
+}
 .category .over-text {
   width: 85%;
   margin: auto;
