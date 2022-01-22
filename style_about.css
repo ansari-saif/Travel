@@ -13,12 +13,27 @@ body {
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://preview.colorlib.com/theme/travel/img/hero-bg.jpg.webp);
-  height: 80%;
+  height: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   background-size: 100% 100%;
+}
+.header__title {
+  color: white;
+  text-align: center;
+
+  margin: auto;
+}
+.header__title > h1 {
+  margin: auto;
+  font-size: 50px;
+}
+.header__title_link {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 .header__container {
   display: grid;
@@ -110,21 +125,21 @@ body {
 }
 
 /*
-  .nav__link--btn:link,
-  .nav__link--btn:visited {
-    padding: 0.8rem 2.5rem;
-    border-radius: 3rem;
-    background-color: var(--color-primary);
-    color: rgb(221, 175, 23);
-  }
-  
-  .nav__link--btn:hover,
-  .nav__link--btn:active {
-    color: inherit;
-    background-color: var(--color-primary-darker);
-    color: rgb(221, 175, 23);
-  }
-  */
+    .nav__link--btn:link,
+    .nav__link--btn:visited {
+      padding: 0.8rem 2.5rem;
+      border-radius: 3rem;
+      background-color: var(--color-primary);
+      color: rgb(221, 175, 23);
+    }
+    
+    .nav__link--btn:hover,
+    .nav__link--btn:active {
+      color: inherit;
+      background-color: var(--color-primary-darker);
+      color: rgb(221, 175, 23);
+    }
+    */
 #section--1 {
   margin-top: 60px;
   margin-bottom: 50px;
@@ -281,16 +296,6 @@ button {
 }
 
 @media screen and (max-width: 1000px) {
-  .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(https://preview.colorlib.com/theme/travel/img/hero-bg.jpg.webp);
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-size: 130% 130%;
-  }
   #section--3 {
     display: flex;
     flex-direction: column;
@@ -353,16 +358,7 @@ button {
 
     grid-row-gap: 50px;
   }
-  .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(https://preview.colorlib.com/theme/travel/img/hero-bg.jpg.webp);
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-    background-size: 200% 130%;
-  }
   .nav {
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel-e-Holic || A Travel Package Site</title>
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="css/home_css_upe.css" />
+
+    <!-- website icon -->
+    <link
+      rel="icon"
+      href="./TraImages/icon.ico"
+      type="image/ico"
+      size="20x20"
+    />
+
+    <!-- poppins link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- top_banner starts -->
+      <div class="top_banner">
+        <img src="./TraImages/travelImages.webp" alt="Banner" />
+
+        <div class="color_gradient"></div>
+
+        <!-- formBanner Div -->
+        <div class="formOverBanner">
+          <div class="leftCont">
+            <span> AWAY FROM MONOTONOUS LIFE </span>
+            <h1>MAGICAL TRAVEL</h1>
+            <p>
+              If you are looking at blank cassettes on the web, you may be very
+              confused at the difference in price. You may see some for as low
+              as $.17 each.
+            </p>
+            <button
+              id="getStarted"
+              style="
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif;
+                padding: 0px 30px;
+              "
+            >
+              GET STARTED
+            </button>
+          </div>
+          <div class="rightCont">
+            <!-- travel form -->
+
+            <div class="form-div">
+              <div id="switchFormDiv">
+                <div id="flight_btn" class="switchForm">
+                  <div class="flight_over_text">
+                    <a href="#"> FLIGHTS</a>
+                  </div>
+                </div>
+                <div id="hotel_btn" class="switchForm">
+                  <div class="hotel_over_text">
+                    <a href="#"> HOTELS</a>
+                  </div>
+                </div>
+                <div id="holidays_btn" class="switchForm">
+                  <div class="holidays_over_text">
+                    <a href="# "> HOLIDAYS</a>
+                  </div>
+                </div>
+              </div>
+
+              <form>
+                <input
+                  type="text "
+                  id="from "
+                  placeholder="From "
+                  onfocus="rmPlaceholder(this) "
+                  onblur="addPlaceholder(this) "
+                />
+                <br />
+
+                <input
+                  type="text "
+                  id="to "
+                  placeholder="To "
+                  onfocus="rmPlaceholder(this) "
+                  onblur="addPlaceholder(this) "
+                />
+                <br />
+
+                <input
+                  type="text "
+                  id="startDate "
+                  placeholder="Start "
+                  onfocus="rmPlaceholderDate(this) "
+                  onblur="addPlaceholderDate(this) "
+                />
+                <br />
+
+                <input
+                  type="text "
+                  id="retuenDate "
+                  placeholder="Return "
+                  onfocus="rmPlaceholderDate(this) "
+                  onblur="addPlaceholderDate(this) "
+                />
+                <br />
+
+                <input
+                  type="number "
+                  id="adult "
+                  placeholder="Adults "
+                  onfocus="rmPlaceholder(this) "
+                  onblur="addPlaceholder(this) "
+                />
+                <br />
+
+                <input
+                  type="number "
+                  id="child "
+                  placeholder="Childs "
+                  onfocus=" rmPlaceholder(this) "
+                  onblur="addPlaceholder(this) "
+                />
+                <br />
+                <input
+                  type="submit "
+                  name=" "
+                  id="submit "
+                  value="Search Flights "
+                />
+              </form>
+
+              <script>
+                function rmPlaceholder(element) {
+                  var plchldr = element.getAttribute("placeholder ");
+                  element.setAttribute("data-buffer", plchldr);
+                  var buffer = element.getAttribute("data-buffer ");
+                  element.placeholder = "";
+                }
+
+                function addPlaceholder(element) {
+                  var plchldr = element.getAttribute("data-buffer ");
+                  element.placeholder = plchldr;
+                }
+
+                // function rmPlaceholderDate(element) {
+                //     var target = element.getAttribute("placeholder ");
+                //     element.type = 'date';
+                //     element.style.color = 'transparent';
+                // }
+
+                // function addPlaceholderDate(element) {
+                //     var target = element.getAttribute("placeholder ");
+                //     target.style.color = 'black';
+                //     target.type = 'text';
+                //     target.placeholder = phr;
+                // }
+              </script>
+            </div>
+            <!-- travel form ends-->
+          </div>
+        </div>
+        <!-- formBanner Div ends-->
+      </div>
+      <!-- top_banner ends-->
+
+      <!-- popular Destination Div -->
+      <div class="popularDestinationDiv">
+        <h1>Popular Destination</h1>
+        <p>
+          We all live in an age that belongs to the young at heart. Life that is
+          becoming extremely fast, day.
+        </p>
+
+        <div class="destinationDetail">
+          <div class="destinationImage">
+            <img src="./TraImages/dest-1.webp " alt=" " />
+          </div>
+          <div class="destinationImage">
+            <img src="./TraImages/dest-2.webp " alt=" " />
+          </div>
+          <div class="destinationImage">
+            <img src="./TraImages/dest-3.webp " alt=" " />
+          </div>
+        </div>
+      </div>
+      <!-- popular Destination Div ends-->
+
+      <!-- package Div -->
+      <div class="packageDiv">
+        <h1>We Provide Affordable Prices</h1>
+        <p>
+          Well educated, intellectual people, especially scientists at all times
+          demonstrate considerably.
+        </p>
+
+        <div class="packageDetail">
+          <div class="packageCard">
+            <h4>Cheap Packages</h4>
+            <ul>
+              <li>
+                <span>New York</span>
+                <a href=" # "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Maldives</span>
+                <a><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Sri Lanka</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Nepal</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Thailand</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Singapore</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+            </ul>
+          </div>
+          <div class="packageCard">
+            <h4>Luxury Packages</h4>
+            <ul>
+              <li>
+                <span>New York</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Maldives</span>
+                <a><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Sri Lanka</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Nepal</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Thailand</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Singapore</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+            </ul>
+          </div>
+          <div class="packageCard">
+            <h4>Camping Packages</h4>
+            <ul>
+              <li>
+                <span>New York</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Maldives</span>
+                <a><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Sri Lanka</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Nepal</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Thailand</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+              <li>
+                <span>Singapore</span>
+                <a href="# "><button>$1500</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- package Div ends-->
+
+      <!-- feature Div -->
+      <div class="featuresDiv">
+        <h1>Other issues we can help you with</h1>
+        <p>
+          We all live in an age that belongs to the young at heart. Life that
+          is.
+        </p>
+
+        <div class="featureDetaislDiv">
+          <div class="singleFeatureDiv">
+            <div class="feature_Image">
+              <img src="./TraImages/feature1.webp " alt=" " />
+            </div>
+            <h4>Rent a Car</h4>
+            <p>
+              The preservation of human life is the ultimate value, a pillar of
+              ethics and the foundation.
+            </p>
+          </div>
+          <div class="singleFeatureDiv">
+            <div class="feature_Image">
+              <img src="./TraImages/feature2.webp " alt=" " />
+            </div>
+            <h4>Cruise Booking</h4>
+            <p>
+              I was always somebody who felt quite sorry for myself, what I had
+              not got compared.
+            </p>
+          </div>
+          <div class="singleFeatureDiv">
+            <div class="feature_Image">
+              <img src="./TraImages/feature3.webp " alt=" " />
+            </div>
+            <h4>To Do List</h4>
+            <p>
+              The following article covers a topic that has recently moved to
+              center stage–at least it seems.
+            </p>
+          </div>
+          <div class="singleFeatureDiv">
+            <div class="feature_Image">
+              <img src="./TraImages/feature4.webp " alt=" " />
+            </div>
+            <h4>Food Features</h4>
+            <p>
+              There are many kinds of narratives and organizing principles.
+              Science is driven by evidence.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- feature Div ends-->
+    </div>
+  </body>
+</html>

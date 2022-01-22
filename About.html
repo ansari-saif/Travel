@@ -5,21 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" type="image/png" href="img/icon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="style_home.css" />
+    <link rel="stylesheet" href="style_about.css" />
     <link rel="stylesheet" href="blog.css" />
 
     <link rel="stylesheet" href="style_home1.css" />
 
-    <title>travel | home</title>
+    <title>travel | hotel</title>
   </head>
 
   <body>
@@ -48,7 +44,7 @@
             <a class="nav__link" href="./home.html">HOME</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="About.html">ABOUT</a>
+            <a class="nav__link" href="#">ABOUT</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="#">PAKAGES</a>
@@ -87,54 +83,16 @@
         </ul>
       </nav>
 
-      <div class="header__container">
-        <div class="banner">
-          <div class="banner__name1">AWAY FROM MONOTONONUS LIFE</div>
-          <h1 class="banner__name2 highlight">MAGICAL TRAVEL</h1>
-          <p class="banner__desc">
-            if you are looking at blank cassettes on the web, you may be very
-            confused at <br />
-            the diffrence in price. You may see some for as low as $.17 each.
-          </p>
-          <button class="banner__button">GET STARTED</button>
+      <div class="header__title">
+        <h1>About Us</h1>
+        <div class="header__title_link">
+          <h4>Home</h4>
+          <h4>&RightArrow;</h4>
+          <h4>About Us</h4>
         </div>
       </div>
     </header>
 
-    <section class="section" id="section--1">
-      <div class="section__title">
-        <h2 class="section__head"><b>Popular Destinations</b></h2>
-        <p class="section__desc">
-          We all live in an age that belongs to the young at heart. Life that is
-          becoming extremely fast, day to day.
-        </p>
-      </div>
-    </section>
-    <section class="section" id="section--2">
-      <div class="section--2__container">
-        <div class="section--2__item section--2__item1" data-value="1">
-          <span><button class="btn-1 visible">$150</button></span>
-          <div class="section--2__item1--desc">
-            <div>Mountain River</div>
-            <div>Paraguay</div>
-          </div>
-        </div>
-        <div class="section--2__item section--2__item2" data-value="2">
-          <span><button class="btn-2 visible">$250</button></span>
-          <div class="section--2__item2--desc">
-            <div>Dream City</div>
-            <div>Paris</div>
-          </div>
-        </div>
-        <div class="section--2__item section--2__item3" data-value="3">
-          <span><button class="btn-3 visible">$550</button></span>
-          <div class="section--2__item3--desc">
-            <div>Cloud Mountain</div>
-            <div>Sri Lanka</div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="section" id="section--1">
       <div class="section__title">
         <h2 class="section__head"><b>We Provide Affordable Prices</b></h2>
@@ -428,15 +386,6 @@
         </div>
       </div>
     </section>
-    <section class="section" id="section--1">
-      <div class="section__title">
-        <h2 class="section__head"><b>Latest from Our Blog</b></h2>
-        <p class="section__desc">
-          With the exception of Nietzsche, no other madman has contributed so
-          much to human sanity as has.
-        </p>
-      </div>
-    </section>
 
     <section class="section" id="section--3">
       <div class="section__3_text">
@@ -451,7 +400,7 @@
           That’s why it’s crucial that, as women, our behavior on the job is
           beyond reproach. inappropriate behavior is often laughed.
         </p>
-        <button style="margin-top: 70px">REQUEST CUSTOM PRICE</button>
+        <button>REQUEST CUSTOM PRICE</button>
       </div>
       <div class="section__3_img">
         <img
@@ -460,7 +409,61 @@
         />
       </div>
     </section>
+    <!-- 
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/jonasschmedtman"
+          >Jonas Schmedtmann</a
+        >. Use for learning or your portfolio. Don't use to teach. Don't claim
+        as your own product.
+      </p>
+    </footer>
 
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div> -->
     <footer>
       <section>
         <div class="agency">
@@ -548,28 +551,19 @@
     <div class="nav2 nav__overlay hidden">
       <div class="nav__links" style="display: grid">
         <div class="nav__item">
-          <a class="nav__link" href="home.html">HOME</a>
+          <a class="nav__link" href="home.html">Home</a>
         </div>
         <div class="nav__item">
-          <a class="nav__link" href="About.html">ABOUT</a>
+          <a class="nav__link" href="About.html">About</a>
         </div>
         <div class="nav__item">
-          <a class="nav__link" href="./hotel.html">PACKAGES</a>
+          <a class="nav__link" href="./hotel.html">Hotel</a>
         </div>
         <div class="nav__item">
-          <a class="nav__link" href="./hotel.html">HOTELS</a>
+          <a class="nav__link" href="blog.html">Blog</a>
         </div>
         <div class="nav__item">
-          <a class="nav__link" href="./blog.html">INSURANCE</a>
-        </div>
-        <div class="nav__item">
-          <a class="nav__link" href="./blog.html">BLOG</a>
-        </div>
-        <div class="nav__item">
-          <a class="nav__link" href="contact.html">PAGES</a>
-        </div>
-        <div class="nav__item">
-          <a class="nav__link" href="contact.html">CONTACT</a>
+          <a class="nav__link" href="contact.html">Contact</a>
         </div>
       </div>
     </div>

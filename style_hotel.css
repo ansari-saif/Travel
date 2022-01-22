@@ -36,7 +36,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 10%;
-  width: 70%;
+  width: 85%;
   z-index: 100;
   background: rgba(196, 192, 192, 0.33);
   margin-top: 30px;
@@ -71,8 +71,8 @@ body {
 
 .nav__link:link,
 .nav__link:visited {
-  font-size: medium;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 500;
   color: inherit;
   text-decoration: none;
   display: block;
@@ -80,7 +80,9 @@ body {
 }
 
 .nav__logo {
-  height: 100%;
+  height: 40%;
+  width: 15%;
+  margin-left: 10px;
   transition: all 0.3s;
 }
 .nav__item:hover {
@@ -125,6 +127,9 @@ body {
 }
 .section__3_text {
   margin-left: 70px;
+
+  padding-top: 40px;
+  z-index: 100;
 }
 .section__3_text > p,
 h1,
@@ -141,6 +146,7 @@ button {
   border: none;
   background: rgb(44, 46, 44);
   padding: 16px;
+  margin-bottom: 70px;
 }
 .section__3_text > button:hover {
   color: rgb(206, 209, 212);
@@ -185,7 +191,6 @@ button {
   border-radius: 5px;
 }
 .html__focus {
-  transform: scale(1.05);
   /* transform: rotate(45deg); */
   transition: 0.8s;
 }
@@ -253,6 +258,12 @@ button {
   }
 }
 @media screen and (max-width: 500px) {
+  .nav__logo {
+    height: 60%;
+    width: 40%;
+    margin-left: 10px;
+    transition: all 0.3s;
+  }
   .section__container {
     display: grid;
     grid-template-columns: auto;

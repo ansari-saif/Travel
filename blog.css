@@ -17,7 +17,7 @@ li {
 }
 button {
   border: none;
-  padding: 8px 11px;
+  /* padding: 8px 11px; */
   cursor: pointer;
 }
 
@@ -442,39 +442,6 @@ footer p {
 }
 
 /* media queries - 750tablet, 500mobile */
-/* @media screen and (max-width: 1100px) {
-    .viewport {
-      margin-left: -28%;
-    }
-    .viewport .viewport-text {
-      left: 25vw;
-    }
-  }
-  @media screen and (max-width: 1000px) {
-    .viewport {
-      margin-left: -35%;
-    }
-    .viewport .viewport-text {
-      left: 28vw;
-    }
-  }
-  @media screen and (max-width: 900px) {
-    .viewport {
-      margin-left: -38%;
-    }
-    .viewport .viewport-text {
-      left: 35vw;
-    }
-  }
-  @media screen and (max-width: 800px) {
-    .viewport {
-      margin-left: -50%;
-    }
-    .viewport .viewport-text {
-      left: 35vw;
-    }
-  } */
-
 @media screen and (max-width: 1200px) {
   .blog-content {
     grid-template-columns: 690px 290px;

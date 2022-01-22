@@ -1,92 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Website || Contact</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="blog.css" />
 
-<body>
+    <title>travel | hotel</title>
+  </head>
 
+  <body>
+    <!-- !header trial -->
+    <header header-sticky>
+      <nav>
+        <a href="index.html"
+          ><img src="image/website-logo.webp" alt="website-logo"
+        /></a>
+        <ul navbar-list class="navbar-list">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">PACKAGES</a></li>
+          <li><a href="">HOTELS</a></li>
+          <li><a href="">INSURENCE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="">PAGES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <ul hamburger class="hamburger">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact-view">
+      <div class="contact-view-bg"></div>
+      <div class="contact-view-text">
+        <h1>Contact Us</h1>
+        <div>
+          <h4>Home</h4>
+          <h4>&RightArrow;</h4>
+          <h4>Contact Us</h4>
+        </div>
+      </div>
+    </section>
 
     <section class="section-gap">
+      <div class="google-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.570840342684!2d78.38919101437112!3d27.13832415687565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397446b64200c38f%3A0xfee129a620d265fb!2sRamnagar%2C%20Sanjay%20Singh%20Colony%2C%20Om%20Nagar%20Colony%2C%20Firozabad%2C%20Uttar%20Pradesh%20283203!5e0!3m2!1sen!2sin!4v1642599218270!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
 
-        <div class="google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.570840342684!2d78.38919101437112!3d27.13832415687565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397446b64200c38f%3A0xfee129a620d265fb!2sRamnagar%2C%20Sanjay%20Singh%20Colony%2C%20Om%20Nagar%20Colony%2C%20Firozabad%2C%20Uttar%20Pradesh%20283203!5e0!3m2!1sen!2sin!4v1642599218270!5m2!1sen!2sin"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        <div class=" contact-section">
-
-            <div class="contact-address">
-
-                <div class="row">
-                    <div class="icon">🏘</div>
-                    <div class="content">
-                        <div class="heading">
-                            <h1>Binghamton, New Delhi</h1>
-                        </div>
-                        <div class="description">
-                            <p>4343 Hinkle Deegan Lake Road</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="icon">☎</div>
-                    <div class="content">
-                        <div class="heading">
-                            <h1>
-                                00 (958) 9865 562</h1>
-                        </div>
-                        <div class="description">
-                            <p>Mon to Fri 9am to 6 pm</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="icon">✉</div>
-                    <div class="content">
-                        <div class="heading">
-                            <h1>
-                                support@saif.com</h1>
-                        </div>
-                        <div class="description">
-                            <p>Send us your query anytime!
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
+      <div class="contact-section">
+        <div class="contact-address">
+          <div class="row">
+            <div class="icon">🏘</div>
+            <div class="content">
+              <div class="heading">
+                <h1>Binghamton, New Delhi</h1>
+              </div>
+              <div class="description">
+                <p>4343 Hinkle Deegan Lake Road</p>
+              </div>
             </div>
-            <div class="contact-input">
-                <form action="#">
-                    <div class="form-input">
-                        <div class="input-section">
-                            <input type="text" class="input" placeholder="Enter your name" name="name">
-                            <input type="text" class="input" placeholder="Enter email address" name="email">
-                            <input type="text" class="input" placeholder="Enter  subject" name="subject">
-                        </div>
-                        <div class="input-section">
-                            <textarea name="message" rows="5" class="input" placeholder="Enter Message"></textarea>
-                        </div>
-                    </div>
-                    <div>
-                        <button class="submit-button">
-                           SEND MESSAGE
-                        </button>
-                    </div>
-                </form>
+          </div>
+
+          <div class="row">
+            <div class="icon">☎</div>
+            <div class="content">
+              <div class="heading">
+                <h1>00 (958) 9865 562</h1>
+              </div>
+              <div class="description">
+                <p>Mon to Fri 9am to 6 pm</p>
+              </div>
             </div>
-
+          </div>
+          <div class="row">
+            <div class="icon">✉</div>
+            <div class="content">
+              <div class="heading">
+                <h1>support@saif.com</h1>
+              </div>
+              <div class="description">
+                <p>Send us your query anytime!</p>
+              </div>
+            </div>
+          </div>
         </div>
-
+        <div class="contact-input">
+          <form action="#">
+            <div class="form-input">
+              <div class="input-section">
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Enter your name"
+                  name="name"
+                />
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Enter email address"
+                  name="email"
+                />
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Enter  subject"
+                  name="subject"
+                />
+              </div>
+              <div class="input-section">
+                <textarea
+                  name="message"
+                  rows="5"
+                  class="input"
+                  placeholder="Enter Message"
+                ></textarea>
+              </div>
+            </div>
+            <div>
+              <button class="submit-button">SEND MESSAGE</button>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
-    <script src="js/custom.js"></script>
-</body>
 
+    <footer>
+      <section>
+        <div class="agency">
+          <h6>ABOUT AGENCY</h6>
+          <p>
+            The world has become so fast paced that people don’t want to stand
+            by reading a page of information, they would much rather look at a
+            presentation and understand the message. It has come to a point
+          </p>
+        </div>
+        <div class="nav-link">
+          <h6>NAVIGATION LINKS</h6>
+          <ul>
+            <li>Home</li>
+            <li>Team</li>
+            <li>Feature</li>
+            <li>Pricing</li>
+            <li>Services</li>
+            <li>Blog</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="newsletter-footer">
+          <h6>Newsletter</h6>
+          <p>
+            For business professionals caught between high OEM price and
+            mediocre print and graphic output.
+          </p>
+          <div>
+            <input type="email" placeholder="Email Address" />
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/6548/6548507.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="instafeed">
+          <h6>INSTAFEED</h6>
+          <div>
+            <img src="image/instafeed-1.webp" alt="" />
+            <img src="image/instafeed-2.webp" alt="" />
+            <img src="image/instafeed-3.webp" alt="" />
+            <img src="image/instafeed-4.webp" alt="" />
+            <img src="image/instafeed-5.webp" alt="" />
+            <img src="image/instafeed-6.webp" alt="" />
+            <img src="image/instafeed-7.webp" alt="" />
+            <img src="image/instafeed-8.webp" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="terms">
+        <p>
+          Copyright ©2022 All rights reserved | This template is made with
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1216/1216649.png"
+            alt="love-icon"
+          />
+          by <mark>Colorlib</mark>
+        </p>
+        <ul class="social-media">
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/919/919847.png"
+              alt="github"
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/220/220799.png"
+              alt="twitter"
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/20/20837.png"
+              alt="facebook"
+            />
+          </li>
+        </ul>
+      </section>
+    </footer>
+
+    <script src="script_home.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="header.js"></script>
+  </body>
 </html>
