@@ -140,6 +140,40 @@ body {
       color: rgb(221, 175, 23);
     }
     */
+
+/*! who we are */
+.who-we-are {
+  padding: 120px 0;
+  background-color: #FFFFFF;
+}
+.who-we-are > div {
+  /* width: 85%;
+  margin: auto; */
+  display: grid;
+  grid-template-columns: 540px 450px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.who-we-are > div img {
+  width: 540px;
+}
+.who-we-are h1 {
+  margin: 20px 0;
+  font-size: 36px;
+}
+.who-we-are h6,
+.who-we-are p {
+  font-size: 14px;
+}
+.who-we-are h1,
+.who-we-are h6 {
+  color: #222222;
+}
+.who-we-are p {
+  color: #777777;
+}
+
 #section--1 {
   margin-top: 60px;
   margin-bottom: 50px;
@@ -295,6 +329,15 @@ button {
   top: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .who-we-are > div {
+    grid-template-columns: 450px 450px;
+  }
+  .who-we-are > div img {
+    width: 450px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   #section--3 {
     display: flex;
@@ -348,6 +391,39 @@ button {
     grid-template-columns: 50% 50%;
     grid-column-gap: 20px;
     margin: 20px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .who-we-are > div {
+    grid-template-columns: 690px;
+  }
+  .who-we-are > div img {
+    width: 100%;
+  }
+  .who-we-are > div > div {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .who-we-are > div {
+    grid-template-columns: 510px;
+  }
+  .who-we-are > div img {
+    width: 100%;
+  }
+  .who-we-are > div > div {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .who-we-are > div {
+    grid-template-columns: 80%;
+  }
+  .who-we-are > div img {
+    width: 100%;
+  }
+  .who-we-are > div > div {
+    width: 80%;
   }
 }
 @media screen and (max-width: 500px) {
